@@ -5,6 +5,9 @@ body{
     padding: 0;
     background: url(../images/deskComputer.jpg);
     background-size: cover;
+	-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
     background-position: center;
     font-family: sans-serif;
 }
