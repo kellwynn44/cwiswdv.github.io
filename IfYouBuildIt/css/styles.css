@@ -1,0 +1,77 @@
+/* Michelle Petit  04-13-2020 */
+
+/* HTML and body styles */
+html{
+    background-color: whitesmoke;
+}
+body{
+    
+    background-image: radial-gradient(circle, rgb(224, 50, 137) 25%, rgb(250, 203, 211) 50%, rgb(253, 242, 242));
+    font-family: "Comic Sans MS", "Comic Sans", cursive	;
+    
+}
+
+/* table styles */
+.table_one{
+    border: 1.5px solid black;
+    margin-top: 3%;
+    margin-left: 35%;
+}
+.table_two{
+    border: 1.5px solid black;
+    margin-top: 3%;
+    margin-left: 24%;
+}
+table{
+    margin: 3%;
+    
+}
+tr{
+    padding: 1%;
+    
+}
+th, td{
+    border: .5px solid black;
+    margin: 2%;
+    padding: 2%;
+    
+    }
+tbody tr:first-child{
+    background-color: whitesmoke;
+}
+tbody tr:nth-child(2){
+    background-color: rgba(253, 203, 210, 0.863);
+}
+tbody tr:nth-child(3){
+    background-color: rgba(252, 149, 166, 0.836);
+}
+tbody tr:last-child{
+    background-color: rgba(250, 82, 110, 0.74);
+}
+
+    /*thead styles */
+table>thead{
+    margin: 1%;
+    background-color: lightgray;   
+    font-size: large;
+}
+
+/* caption styles */
+caption{
+    font-size: xx-large;
+    color: whitesmoke;
+    padding: 3%;
+}
+
+/* tfoot styles */
+table>tfoot{
+    background-color: lightgray;
+    font-size: .75em;
+    color: black;
+    text-align: center;
+}
+
+/* colgroup styles */
+colgroup{
+    background-color: whitesmoke;
+}
