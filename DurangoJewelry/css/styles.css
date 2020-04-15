@@ -1,0 +1,79 @@
+/* Michelle Petit, 04-15-2020 */
+
+@font-face {
+    font-family: 'parisienneregular';
+    src: url('../fonts/parisienne-regular-webfont.woff2') format('woff2'),
+         url('../fonts/parisienne-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* div styles */ 
+div#outerwrapper {	
+	background: rgba(243,205,170, 0.4);
+    width: 70%;
+    border-radius: 15%;
+    align-content: center;
+    position: relative;
+    margin-left: 15%;
+}
+
+/* html styles */
+html{
+    background: url(../images/jewelry.jpg);
+    background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+/* footer styles */
+footer{
+	font-size: 1em;
+	padding: 10px;
+	text-align: center;
+}
+
+/* main styles */
+main{
+	background-image: linear-gradient(#ffffff, #f0f9e6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: 'parisienneregular', 'Alex Brush',cursive;
+}
+
+/* img styles */
+.addrightmargin{
+	float: left;
+	border-radius: 100px;
+	margin-right: 10%;
+}
+
+/* nav ul styles */
+nav ul li{
+	list-style-type: none;
+	font-size: 1.5em;
+}
+
+/* nav styles */
+nav{
+	clear: both;
+}
+
+/* h1 styles */
+h1{
+	font-size: 4em;
+	font-family: 'Pacifico', 'Alex Brush', cursive;
+}
+
+/* h2 styles */
+h2{
+	font-family: 'parisienneregular', 'Alex Brush',cursive;
+	font-style: italic;
+	font-size: 2em;
+}
