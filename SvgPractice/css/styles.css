@@ -1,0 +1,11 @@
+/* Michelle Petit, 04-16-2020 */
+
+.eyes{
+    transition: fill 1s;
+}
+svg:hover .eyes{
+    fill: red;
+}
+svg:hover .beak{
+    fill: yellow;
+}
