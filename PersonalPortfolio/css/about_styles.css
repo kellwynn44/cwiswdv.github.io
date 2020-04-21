@@ -39,7 +39,7 @@ header img{
 nav.header ul{
     list-style-type:none;
     display: flex;  
-   -webkit-box-orient: horizontal;
+   /*-webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
@@ -48,8 +48,11 @@ nav.header ul{
     align-items: flex-start;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
-    
+    justify-content: center;*/
+    -moz-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
 }
 nav.header ul li{
     padding-left: 8%;
