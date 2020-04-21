@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--Michelle Petit,  04-20-2020-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Michelle Petit">
+    <meta name="keywords" content="portfolio, college of western idaho, software development student, coder, c#, website design">
+    <meta name="description" content="software development 130 introduction to web application development personal portfolio project">
+    <link href="css/contact_styles.css" rel="stylesheet" type="text/css">
+    <title>Michelle Petit Contact Form</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/brandPic.png" alt="girl with laptop"></a>
+        <nav class="header">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="contactform">
+        <fieldset class="first">
+            <legend>&nbsp;&nbsp;Please fill out if you'd like me to contact you&nbsp;&nbsp;</legend>
+            <form action="mailto:michellepetit@my.cwi.edu" enctype="text/plain" method="POST">
+                <p>Your Name, or Your Business's Name</p>
+                <input type="text" name="Name">
+                <p>Your Email</p>
+                <input type="email" name="Email">
+                <p>Your Phone Number</p>
+                <input type="tel" name="Telephone">
+                <p>If This is in Regards to a Job, Please Indicate Type Available</p>
+                <select name="JobOffer">
+                    <optgroup label="permanent">
+                       <option>Full Time</option> 
+                       <option>Part Time</option>
+                    </optgroup>
+                    <optgroup label="other">
+                        <option>Temporary</option>
+                        <option>On Call</option>
+                        <option>Contract</option>
+                    </optgroup>
+                </select>
+                <p>Reason for Contact</p>
+                <textarea name="Message" rows="5" cols="50"></textarea>
+                <br>
+                <input type="submit" name="Submit" value="Submit">
+            </form>
+        </fieldset>
+
+        <fieldset class="second">  
+            <legend>&nbsp;&nbsp;Please fill out if you'd like to leave me feedback or a message&nbsp;&nbsp;</legend>
+            <form action="mailto:michellepetit@my.cwi.edu" enctype="text/plain" method="POST">
+                <p>Your Comments</p>
+                <textarea name="Commments" rows="5" cols="50"></textarea>
+                <br>
+                <input type="submit" name="Submit" value="Submit">
+            </form>
+        </fieldset>
+    </div>
+    
+    <footer>
+        <a href="https://github.com/" target="_blank"><img src="images/github.png" alt="github logo"></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png" alt="linkedin logo"></a>
+    </footer>
+</body>
+</html>
