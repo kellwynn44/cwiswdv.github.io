@@ -94,7 +94,7 @@ table{
 }
 table.firstyear{
     grid-area: t1;
-    align-items: centered;
+    align-items: center;
 }
 table.secondyear{
     grid-area: t2;
