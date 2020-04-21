@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--Michelle Petit,  04-20-2020-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Michelle Petit">
+    <meta name="keywords" content="portfolio, college of western idaho, software development student, coder, c#, website design">
+    <meta name="description" content="software development 130 introduction to web application development personal portfolio project">
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Michelle Petit Personal Portfolio Home Page</title>
+</head>
+<body class="container">
+    <header>
+        <img src="images/brandPic.png" alt="girl with laptop">
+        <nav class="header">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+        <img src="images/200x355.png" alt="picture of me">
+    </aside>
+    <main>
+        <div class="introduction">
+            <h2 class="welcomeheader">Welcome!</h2>
+            <p id="1">I'm so happy you found me!</p> 
+            <p id="2">My name is Michelle Petit, and I am a first year software development
+            student at the <a href="www.cwi.edu">College of Western Idaho</a>.</p> 
+            <p id="3">If you'd like to learn more about who I am you can click <a href="about.html">here</a> 
+                or the "About" link above. </p>
+            <p id="4">For information regarding my education you can click <a href="education.html">here</a>
+                or the "Education" link above.</p>
+        </div>
+        <div class="talk2me">
+            <br>
+            <h2 class="contactheader">Contact Information</h2>
+            <p id="5"><a href="mailto:michellepetit@my.cwi.edu">michellepetit@my.cwi.edu</a></p>
+            <p id="6"><a href="tel:+01-208-805-5555">(208)805-5555</a></p>
+            <p id="7">Or you can </p>
+            <a href="contact.html" id="click">click here</a> 
+            <p id="8">to leave me a message or feedback.</p>
+        </div>
+    </main>
+    <section>
+        <fieldset>
+            <legend>&nbsp;&nbsp;How did you find me?&nbsp;&nbsp;</legend>
+            <form action="info.php" enctype="text/plain" method="POST">
+                <ul>
+                    <li><label><input type="radio" name="found" value="google">Google search result</label></li>
+                    <li><label><input type="radio" name="found" value="partner">CWI software development 
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;corporate partner</label></li>
+                    <li><label><input type="radio" name="found" value="fair">Job fair</label></li>
+                    <li><label><input type="radio" name="found" value="linkedin">Linkedin</label></li>
+                    <li><label><input type="radio" name="found" value="indeed">Indeed</label></li>
+                    <li><label><input type="radio" name="found" value="other">Other</label></li>
+                </ul>
+                <input type="submit">
+            </form>
+        </fieldset>
+    </section>
+    <footer>
+        <a href="https://github.com/" target="_blank"><img src="images/github.png" alt="github logo"></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png" alt="linkedin logo"></a>
+    </footer>
+</body>
+</html>

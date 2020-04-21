@@ -1,0 +1,127 @@
+/* Michelle Petit, 04-20-2020 */
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* html styles */
+html{
+    background-color: #fbfbf9;
+}
+/* body styles */
+body{
+    display: grid;
+    grid-template-areas: "h  " 
+                         "t1  "
+                         "t2"
+                         "f ";
+    font-family: 'robotoregular', Helvetica, Arial, sans-serif;
+   
+}
+/* header styles */
+header{
+    grid-area: h;
+    background-color: #344051;
+    font-size: 2em;
+}
+header img{
+    border-radius: 50%;
+    float: left;
+    padding: .5% 3%;
+}
+/* nav bar styles */
+nav.header ul{
+    list-style-type:none;
+    display: flex;  
+    -moz-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+nav.header ul li{
+    padding-left: 8%;
+    padding-top: 1.5%;
+}
+nav.header a:link{
+    color: #fbfbf9;
+}
+nav.header a:visited{
+    color: rgb(243, 213, 45);
+}
+nav.header a:hover{
+    color: #bd935c;
+}
+/* h1, h2, h3 styles */
+h1{
+    font-family: 'Sriracha', Helvetica, Arial, sans-serif;
+    color: #344051;
+    text-align: center;
+    text-decoration: underline;
+}
+h2, h3{
+    font-family: 'robotobold', Helvetica, Arial, sans-serif;
+    color: #344051;
+    text-align: center;
+}
+h3 a:link{
+    color: #bd935c;
+}
+h3 a:visited{
+    color: rgb(243, 213, 45);
+}
+/* table styles */
+table{
+    width: 90%;
+    border: 1.5px solid #344051;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+table.firstyear{
+    grid-area: t1;
+    align-items: centered;
+}
+table.secondyear{
+    grid-area: t2;
+}
+table caption{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fbfbf9;
+    padding: 1%;
+    text-align: center;
+    border: .5px solid #344051;
+    background-color: #344051;
+}
+thead{
+    font-weight: bolder;
+    background-color: rgb(250, 242, 239);
+}
+td, th{
+    border: 1px solid #344051;
+    padding: 1%;
+}
+tfoot{
+    background-color: rgb(248, 186, 161);
+    text-align: center;
+}
+/* footer styles */
+footer{
+    grid-area: f;
+    background-color: #344051;
+    text-align: center;
+    margin-top: 2%;
+}
+footer img{
+    padding: .25%;
+    margin-top: .4%;
+}
