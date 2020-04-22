@@ -48,6 +48,7 @@ nav.header ul{
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
+    margin-left: auto;
 }
 nav.header ul li{
     padding-left: 8%;
