@@ -44,16 +44,10 @@ header img{
 nav.header ul{
     list-style-type:none;
     display: flex;  
-    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
 }
 nav.header ul li{
     padding-left: 8%;
