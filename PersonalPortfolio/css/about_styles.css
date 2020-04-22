@@ -92,10 +92,10 @@ article#why img{
     margin-top: 25px;
     border-top-left-radius: 60px;
     border-bottom-left-radius: 20px;
-    /* -webkit-shape-outside: circle(275px at 60% 70%);
+    -webkit-shape-outside: circle(275px at 60% 70%);
     -o-shape-outside: circle(275px at 60% 70%);
-    -moz-shape-outside: circle(275px at 60% 70%); */
-    shape-outside: circle(275px at 60% 70%);
+    -moz-shape-outside: circle(275px at 60% 70%);
+    /*shape-outside: circle(275px at 60% 70%);*/
 }
 article#what{
     grid-area: a3;
