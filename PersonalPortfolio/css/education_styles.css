@@ -55,6 +55,7 @@ nav.header ul{
     justify-content: center;
 }
 nav.header ul li{
+    margin-right: auto;
     padding-left: 8%;
     padding-top: 1.5%;
 }
