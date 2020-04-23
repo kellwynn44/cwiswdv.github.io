@@ -70,7 +70,9 @@ aside{
     height: 100%;
     background-image: linear-gradient(to bottom, #344051, rgb(248, 186, 161) 5%, #fbfbf9, rgb(248, 186, 161) 95%, #344051);
     background-size: cover;
-    border: 1px solid #344051;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #344051 #b2b5ac;
 }
 aside>img{
     margin: 35% 13%;
@@ -117,7 +119,9 @@ section{
     grid-area: s;
     background-image: linear-gradient(to bottom, #344051, rgb(248, 186, 161) 5%, #fbfbf9, rgb(248, 186, 161) 95%, #344051);
     background-size: cover;
-    border: 1px solid #344051;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #344051 #b2b5ac;
 }
 fieldset{
     margin: 35% 5%;
@@ -157,6 +161,7 @@ section input[type="submit"]:hover
 /* footer styles */
 footer{
     grid-area: f;
+    margin-top: 1%;
     background-color: #344051;
     text-align: center;
 }
