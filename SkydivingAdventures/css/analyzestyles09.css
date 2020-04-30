@@ -54,11 +54,8 @@ main {
 
 /* Style for video class */
 div.video{
-	width: 650px;
-	height: 420px;
 	padding: 1em;
-	border-radius: 30px;
-	
+	border-radius: 30px;	
 }
 
 /* Style for video element */
