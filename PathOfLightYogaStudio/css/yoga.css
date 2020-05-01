@@ -1,0 +1,99 @@
+/* Michelle Petit,  05-01-2020 */
+
+/* Body Styles */
+body { 
+	background-color: #F5F5F5;
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+}
+/* Header Styles */
+header { 
+	background-color: #9BC1C2; 
+    background-image: url(../images/lilyheader.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+/* h1 Styles */
+h1 { 
+	text-indent: 1em;
+    line-height: 400%; 
+}
+/* Nav Styles */
+nav { 
+     font-weight: bold; 
+}
+nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+/* Address Styles */
+address{
+	margin-bottom: .5em;
+}
+/* Footer Styles */
+footer { 
+	background-color: #9BC1C2; 
+    font-size: small;
+	text-align: center;
+	font-style: italic;
+	padding: .5em;
+}
+/* Main ul Styles */
+main ul{
+	list-style-image: url(../images/yogabullet.png);
+	margin-left: 3em;
+}
+/* Make images responsive */
+img{
+	max-width: 100%;
+}
+/* Table Styles */
+.schedule{
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 100%;
+	margin-bottom: .5em;
+}
+td{
+	border: 1px solid black;
+	text-align: center;
+}
+thead{
+	font-weight: bold;
+	
+}
+/* Media Queries at the 641px Breakpoint*/
+
+/* Media Query for Desktop */
+@media screen and (min-width: 641px){
+	nav li{
+		display: inline-block;
+	}
+}
+/* Media Queries below the 641 Breakpoint */
+
+/* Media Query Styles for Tablet */
+@media screen and (min-width: 481px) and (max-width: 640px){
+	nav li{
+		display: inline-block;
+	}
+}	
+/*Media Query Styles for Mobile */
+@media screen and (max-width: 480px){
+	nav li{
+		display:block;
+	}
+	header{
+		background-image: none;
+	}
+	body{
+		background-image: url(../images/yogamobile.png);
+	}
+	img{
+		display: none;
+	}
+	h1{
+		font-size: 6vw;
+	}
+}
