@@ -1,0 +1,67 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+
+.form {
+    width: 100%;
+    padding-bottom: $padding;
+
+        & heading {
+            width: 100%;
+            color: $accent-color;
+        	@include heading-shadow();                
+            background: $primary-color;
+            line-height: 5rem;
+            padding: $padding;
+        }
+
+        & label {
+            color: $background-color;
+            display: block;
+            font-size: 2rem;
+            line-height: 2rem;
+            padding-top: $padding;
+        }
+
+        & input {
+            width: 100%;
+            padding: $padding;
+            background: $background-color;
+            @include border-property();                
+            color: $text-input-color;
+            font-weight: 900;
+            font-style: italic;
+            font-size: 2.75rem;
+        }
+
+        & input:focus {
+            background: $primary-color;
+            border: $primary-color;
+            color: $accent-color;
+        }
+
+        & input:invalid {
+            background: $alert-color;
+            border: $accent-color;
+            color: $accent-color;
+        }
+
+        & textarea {
+            width: 100%;
+            color: $primary-color;
+            background: $background-color;
+            @include border-property();              
+            outline: none;
+            padding: $padding;
+            margin-bottom: $margins;
+        }
+
+}
+
+
+     
+
+
+    
+
+
