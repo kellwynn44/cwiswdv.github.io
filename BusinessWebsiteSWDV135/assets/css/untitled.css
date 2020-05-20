@@ -1,0 +1,130 @@
+.site-heading .site-heading-lower {
+  font-weight: 400;
+}
+
+.text-primary.site-heading-upper.mb-3 {
+  font-weight: 600;
+  margin-top: .75rem;
+  margin-bottom: .5rem;
+}
+
+.text-primary {
+  color: #140a06!important;
+}
+
+#mainNav {
+  background-color: rgb(150,36,36)!important;
+}
+
+.img-fluid.intro-img.mb-3.mb-lg-0.rounded {
+  width: 60%;
+}
+
+.footer.text-faded.text-center.py-5 {
+  background-color: rgba(150,36,36,0.4);
+  padding-bottom: 1rem!important;
+}
+
+.telephone a:hover {
+  color: rgb(89,86,230);
+  text-decoration: underline;
+}
+
+.email a:hover {
+  color: rgb(89,86,230);
+  text-decoration: underline;
+}
+
+p.telephone a {
+  color: rgba(255,255,255,0.5);
+}
+
+p.email a {
+  color: rgba(255,255,255,0.5);
+}
+
+.store-telephone {
+  color: black;
+}
+
+.store-telephone:hover {
+  color: blue;
+}
+
+.list-hours .list-hours-item {
+  border-bottom: 1px solid rgba(150, 36,36,.5)!important;
+}
+
+.img-fluid.rounded.about-heading-img.mb-3.mb-lg-0 {
+  width: 70%;
+}
+
+.section-heading .section-heading-lower {
+  font-weight: 200;
+}
+
+.text-primary.site-heading-upper.mb-3 {
+  font-size: 1.5rem;
+}
+
+.img-fluid.d-flex.mx-auto.product-item-img.mb-3.mb-lg-0.rounded {
+  width: 50%;
+}
+
+.pt-5, .py-5 {
+  padding-top: 1rem!important;
+}
+
+.fa.fa-facebook-square {
+  font-size: 1.5rem;
+}
+
+#footer-address {
+  margin-top: .25rem!important;
+}
+
+#contact-message:hover {
+  color: black;
+}
+
+#contact-message {
+  color: black;
+}
+
+.store-email:hover {
+  color: blue!important;
+  text-decoration: underline;
+}
+
+body {
+  background: linear-gradient(rgb(250, 250, 250, 0.65), rgba(249, 239, 235, 0.65)), url('../../assets/img/background.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.site-heading {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#eye-catcher {
+  font-weight: 525;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgba(153,50,50,.5);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: rgb(150,36,36);
+  border-color: rgb(150,36,36);
+}
+
+@media (min-width: 300px) {
+  .email.m-0 {
+    font-size: smaller;
+  }
+}
+
