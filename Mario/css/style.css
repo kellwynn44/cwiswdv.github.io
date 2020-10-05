@@ -47,7 +47,7 @@ html, body{
   position: absolute;
   top: -40px;
   left: 0px;
-  animation: drive 3s infinite linear both,
+  animation: drive 5s infinite linear both,
              jump 0.3s 1.2s ease; 
 }
 
@@ -56,7 +56,7 @@ html, body{
   top: 100px;
   left: 0px;
   animation-name: drive;
-  animation-duration: 5s;
+  animation-duration: 7s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -86,7 +86,7 @@ html, body{
     transform: translateX(-200px);
   }
   to{
-    transform: translateX(1500px);
+    transform: translateX(1800px);
   }
 }
 
